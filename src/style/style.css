@@ -5,3 +5,72 @@
 .navFondo{
     background-color: rgba(236, 221, 221, 0.521);
 }
+
+.divItemCount {
+    /* height: 100px;
+    width: 120px; */
+    display: grid;
+    grid-template-areas: 
+    "botonMenos valor botonMas"
+    "carrito carrito carrito";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    background-color: rgba(176, 176, 177, .2);
+    margin-top: 50px;
+}
+
+.btn-violeta {
+    color: #212529;
+    background-color: rgb(95, 46, 141);
+    border-color: rgb(160, 81, 233)3;
+    padding: 10px;
+    margin: 15px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btnSuma {
+    grid-area: botonMas;
+    
+}
+
+.btnResta {
+    grid-area: botonMenos;
+}
+
+.btn-violeta:hover {
+    color: #212529;
+    background-color: rgb(95, 46, 141);
+    border-color: rgb(160, 81, 233)3
+}
+
+.btn-contador {
+    color: #212529;
+    font-weight: 500;
+    background-color: rgba(143, 173, 173, .6);
+    border-color: rgba(143, 173, 173, .8);
+    margin-top: 10px;
+}
+
+.btn-contador.disabled,
+.btn-contador:disabled {
+    color: #212529;
+    background-color: rgba(143, 173, 173, .6);
+    border-color: rgba(143, 173, 173, .8)
+}
+
+.btn-outline-naranja {
+    color: rgb(221, 117, 48);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(221, 117, 48);
+    grid-area: carrito;
+    margin-bottom: 10px;
+}
+
+.btn-outline-naranja:hover {
+    color: #222;
+    background-color: #be6d36;
+    border-color: #be6d36
+}

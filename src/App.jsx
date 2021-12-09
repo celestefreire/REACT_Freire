@@ -5,10 +5,10 @@ import ItemListContainer from './components/ItemListContainer'
 function App() {
 
   return (
-    <div className='fondo'>
+    <center className='fondo'>
       <NavBar/>
       <ItemListContainer greeting='Bienvenidxs a Baaxal' />
-    </div>
+    </center>
   )
 }
 
